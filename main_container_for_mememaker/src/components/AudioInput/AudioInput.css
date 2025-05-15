@@ -1,0 +1,124 @@
+.audio-input-root {
+  background: rgba(24, 24, 24, 0.92);
+  border-radius: 8px;
+  border: 1px solid var(--border-color, #262626);
+  padding: 22px 20px 18px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.audio-input-label {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--kavia-orange, #E87A41);
+  margin-bottom: 2px;
+  letter-spacing: 0.01rem;
+}
+
+.audio-input-btn-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn.btn-file {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  padding-right: 24px;
+}
+
+.btn.btn-file input[type="file"] {
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.audio-input-public {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.btn.btn-source {
+  background: none;
+  border: 1px solid var(--kavia-orange, #E87A41);
+  color: var(--kavia-orange, #E87A41);
+  font-weight: 500;
+  padding: 4px 11px;
+  font-size: 0.97rem;
+  border-radius: 3px;
+  transition: background 0.16s, color 0.16s;
+}
+.btn.btn-source.picked, .btn.btn-source:hover {
+  background: var(--kavia-orange, #E87A41);
+  color: #fff;
+  border-color: var(--kavia-orange, #E87A41);
+}
+
+.audio-input-error {
+  color: #ff6464;
+  background: rgba(40,0,0,0.09);
+  border: 1px solid #dc6464;
+  padding: 6px 13px;
+  border-radius: 4px;
+  font-size: 0.98rem;
+}
+
+.audio-preview-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.audio-preview {
+  background: #191919;
+  border-radius: 6px;
+  border: 1px solid var(--border-color, #2a2a2a);
+  width: 260px;
+  max-width: 95vw;
+  margin-bottom: 5px;
+  box-shadow: 0px 2px 24px 0px rgba(0,0,0,0.11);
+}
+
+.audio-waveform {
+  width: 260px;
+  height: 36px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.audio-preview-filename {
+  font-size: 0.98rem;
+  color: var(--text-secondary, #aaa);
+  text-align: center;
+  margin-bottom: 5px;
+}
+.audio-preview-controls {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+.audio-preview-hint {
+  font-size: 1.03rem;
+  color: var(--kavia-orange, #E87A41);
+  margin-top: 7px;
+  margin-bottom: 1px;
+  font-weight: 500;
+}
+.audio-input-note {
+  font-size: 0.90rem;
+  color: var(--text-secondary, #b9b9b9);
+  margin-top: 2px;
+  text-align: center;
+}

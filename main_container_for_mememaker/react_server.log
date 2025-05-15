@@ -1,0 +1,1345 @@
+
+> react-kavia@0.1.0 start
+> react-scripts start
+
+(node:294) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:294) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view react-kavia in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.17.0.2:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+ERROR in ./src/App.js 7:0-45
+Module not found: Error: Can't resolve './pages/Home/HomePage' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+ERROR in ./src/App.js 8:0-51
+Module not found: Error: Can't resolve './pages/Editor/EditorPage' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+ERROR in ./src/App.js 9:0-54
+Module not found: Error: Can't resolve './pages/Preview/PreviewPage' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 4 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+ERROR in ./src/App.js 8:0-51
+Module not found: Error: Can't resolve './pages/Editor/EditorPage' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+ERROR in ./src/App.js 9:0-54
+Module not found: Error: Can't resolve './pages/Preview/PreviewPage' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 3 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+ERROR in ./src/App.js 9:0-54
+Module not found: Error: Can't resolve './pages/Preview/PreviewPage' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+Syntax error: Unterminated JSX contents. (11:12) (11:12)
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/App.js: Unterminated JSX contents. (11:12)
+
+   9 | function App() {
+  10 |   return (
+> 11 |     <Router>
+     |             ^
+  12 |
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.jsxReadToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6621:20)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6947:12)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5419:13)
+    at FlowParserMixin.nextToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2510:10)
+    at FlowParserMixin.next (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2423:10)
+    at FlowParserMixin.eat (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2427:12)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3656:15)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6844:10)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6292:18)
+    at FlowParserMixin.jsxParseOpeningElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6835:17)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6859:33)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12786:28)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12960:61)
+
+ERROR in [eslint] 
+src/App.js
+  Line 11:12:  Parsing error: Unterminated JSX contents. (11:12)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+WARNING in [eslint] 
+src/App.js
+  Line 1:8:   'React' is defined but never used     no-unused-vars
+  Line 2:27:  'Router' is defined but never used    no-unused-vars
+  Line 2:35:  'Routes' is defined but never used    no-unused-vars
+  Line 2:43:  'Route' is defined but never used     no-unused-vars
+  Line 2:50:  'Link' is defined but never used      no-unused-vars
+  Line 5:8:   'HomePage' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js 4:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+ERROR in ./src/index.js 11:33-36
+export 'default' (imported as 'App') was not found in './App' (module has no exports)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+WARNING in [eslint] 
+src/App.js
+  Line 1:8:   'React' is defined but never used        no-unused-vars
+  Line 2:27:  'Router' is defined but never used       no-unused-vars
+  Line 2:35:  'Routes' is defined but never used       no-unused-vars
+  Line 2:43:  'Route' is defined but never used        no-unused-vars
+  Line 2:50:  'Link' is defined but never used         no-unused-vars
+  Line 5:8:   'HomePage' is defined but never used     no-unused-vars
+  Line 6:8:   'EditorPage' is defined but never used   no-unused-vars
+  Line 7:8:   'PreviewPage' is defined but never used  no-unused-vars
+
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js 4:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+ERROR in ./src/index.js 11:33-36
+export 'default' (imported as 'App') was not found in './App' (module has no exports)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+Syntax error: Unterminated JSX contents. (18:20) (18:20)
+WARNING in [eslint] 
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/App.js: Unterminated JSX contents. (18:20)
+
+  16 |               <div className="logo">
+  17 |                 <span className="logo-symbol">*</span> MemeMaker
+> 18 |               </div>
+     |                     ^
+  19 |
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.jsxReadToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6621:20)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6947:12)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5419:13)
+    at FlowParserMixin.nextToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2510:10)
+    at FlowParserMixin.next (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2423:10)
+    at FlowParserMixin.eat (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2427:12)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3656:15)
+    at FlowParserMixin.jsxParseClosingElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6853:10)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6868:37)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12786:28)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12406:17)
+
+ERROR in [eslint] 
+src/App.js
+  Line 18:20:  Parsing error: Unterminated JSX contents. (18:20)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+Syntax error: Unterminated JSX contents. (18:20) (18:20)
+WARNING in [eslint] 
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/App.js: Unterminated JSX contents. (18:20)
+
+  16 |               <div className="logo">
+  17 |                 <span className="logo-symbol">*</span> MemeMaker
+> 18 |               </div>
+     |                     ^
+  19 |
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.jsxReadToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6621:20)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6947:12)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5419:13)
+    at FlowParserMixin.nextToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2510:10)
+    at FlowParserMixin.next (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2423:10)
+    at FlowParserMixin.eat (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2427:12)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3656:15)
+    at FlowParserMixin.jsxParseClosingElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6853:10)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6868:37)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12786:28)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12406:17)
+
+ERROR in [eslint] 
+src/App.js
+  Line 18:20:  Parsing error: Unterminated JSX contents. (18:20)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+Syntax error: Unterminated JSX contents. (20:77) (20:77)
+WARNING in [eslint] 
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/App.js: Unterminated JSX contents. (20:77)
+
+  18 |               </div>
+  19 |               <div>
+> 20 |                 <Link to="/" className="btn" style={{ marginRight: '12px' }}>
+     |                                                                              ^
+  21 |                   Home
+  22 |
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.jsxReadToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6621:20)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6947:12)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5419:13)
+    at FlowParserMixin.nextToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2510:10)
+    at FlowParserMixin.next (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2423:10)
+    at FlowParserMixin.eat (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2427:12)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3656:15)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6844:10)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6292:18)
+    at FlowParserMixin.jsxParseOpeningElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6835:17)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6859:33)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+
+ERROR in [eslint] 
+src/App.js
+  Line 20:77:  Parsing error: Unterminated JSX contents. (20:77)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+Syntax error: Unterminated JSX contents. (23:83) (23:83)
+WARNING in [eslint] 
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/App.js: Unterminated JSX contents. (23:83)
+
+  21 |                   Home
+  22 |                 </Link>
+> 23 |                 <Link to="/editor" className="btn" style={{ marginRight: '12px' }}>
+     |                                                                                    ^
+  24 |
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.jsxReadToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6621:20)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6947:12)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5419:13)
+    at FlowParserMixin.nextToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2510:10)
+    at FlowParserMixin.next (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2423:10)
+    at FlowParserMixin.eat (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2427:12)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3656:15)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6844:10)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6292:18)
+    at FlowParserMixin.jsxParseOpeningElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6835:17)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6859:33)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+
+ERROR in [eslint] 
+src/App.js
+  Line 23:83:  Parsing error: Unterminated JSX contents. (23:83)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+Syntax error: Unterminated JSX contents. (29:20) (29:20)
+WARNING in [eslint] 
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/App.js: Unterminated JSX contents. (29:20)
+
+  27 |                   Preview
+  28 |                 </Link>
+> 29 |               </div>
+     |                     ^
+  30 |
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.jsxReadToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6621:20)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6947:12)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5419:13)
+    at FlowParserMixin.nextToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2510:10)
+    at FlowParserMixin.next (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2423:10)
+    at FlowParserMixin.eat (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2427:12)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3656:15)
+    at FlowParserMixin.jsxParseClosingElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6853:10)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6868:37)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12786:28)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12406:17)
+
+ERROR in [eslint] 
+src/App.js
+  Line 29:20:  Parsing error: Unterminated JSX contents. (29:20)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+Syntax error: Unterminated JSX contents. (33:41) (33:41)
+WARNING in [eslint] 
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/App.js: Unterminated JSX contents. (30:18)
+
+  28 |                 </Link>
+  29 |               </div>
+> 30 |             </div>
+     |                   ^
+  31 |
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.jsxReadToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6621:20)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6947:12)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5419:13)
+    at FlowParserMixin.nextToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2510:10)
+    at FlowParserMixin.next (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2423:10)
+    at FlowParserMixin.eat (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2427:12)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3656:15)
+    at FlowParserMixin.jsxParseClosingElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6853:10)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6868:37)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12786:28)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5140:24)
+
+ERROR in [eslint] 
+src/App.js
+  Line 33:41:  Parsing error: Unterminated JSX contents. (33:41)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+Syntax error: Unterminated JSX contents. (33:41) (33:41)
+WARNING in [eslint] 
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/App.js: Unterminated JSX contents. (34:37)
+
+  32 |         </nav>
+  33 |         <main style={{ paddingTop: 80 }}>
+> 34 |           <div className="container">
+     |                                      ^
+  35 |
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.jsxReadToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6621:20)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6947:12)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5419:13)
+    at FlowParserMixin.nextToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2510:10)
+    at FlowParserMixin.next (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2423:10)
+    at FlowParserMixin.eat (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2427:12)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3656:15)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6844:10)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6292:18)
+    at FlowParserMixin.jsxParseOpeningElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6835:17)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6859:33)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12786:28)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12406:17)
+
+ERROR in [eslint] 
+src/App.js
+  Line 33:41:  Parsing error: Unterminated JSX contents. (33:41)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+Syntax error: Unterminated JSX contents. (35:20) (35:20)
+WARNING in [eslint] 
+src/pages/Home/HomePage.js
+  Line 1:8:  'React' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/App.js: Unterminated JSX contents. (35:20)
+
+  33 |         <main style={{ paddingTop: 80 }}>
+  34 |           <div className="container">
+> 35 |             <Routes>
+     |                     ^
+  36 |
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.jsxReadToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6621:20)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6947:12)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5419:13)
+    at FlowParserMixin.nextToken (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2510:10)
+    at FlowParserMixin.next (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2423:10)
+    at FlowParserMixin.eat (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:2427:12)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3656:15)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6844:10)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6292:18)
+    at FlowParserMixin.jsxParseOpeningElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6835:17)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6859:33)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6871:32)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12786:28)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12437:21)
+
+ERROR in [eslint] 
+src/App.js
+  Line 35:20:  Parsing error: Unterminated JSX contents. (35:20)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+ERROR in ./src/App.js 5:0-80
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src'
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Editor/EditorPage.js
+  Line 12:25:  'setVideo' is assigned a value but never used    no-unused-vars
+  Line 12:35:  'setAudio' is assigned a value but never used    no-unused-vars
+  Line 12:45:  'clearVideo' is assigned a value but never used  no-unused-vars
+  Line 12:57:  'clearAudio' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Editor/EditorPage.js
+  Line 12:25:  'setVideo' is assigned a value but never used    no-unused-vars
+  Line 12:35:  'setAudio' is assigned a value but never used    no-unused-vars
+  Line 12:45:  'clearVideo' is assigned a value but never used  no-unused-vars
+  Line 12:57:  'clearAudio' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+Syntax error: Unexpected token, expected ":" (274:23) (274:23)
+ERROR in ./src/components/TransformationPanel/TransformationPanel.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/components/TransformationPanel/TransformationPanel.js: Unexpected token, expected ":" (274:23)
+
+  272 |                   </div>
+  273 |                 )
+> 274 |                   <div style={{ fontSize: 13, color: "#888", marginLeft: 2 }}>{def.description}</div>
+      |                        ^
+  275 |                 : def?.description && (
+  276 |                 )}
+  277 |             </li>
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3657:12)
+    at FlowParserMixin.parseConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5237:10)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10562:17)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6805:31)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6884:36)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12786:28)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12386:17)
+
+ERROR in [eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+  Line 274:23:  Parsing error: Unexpected token, expected ":" (274:23)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+Syntax error: Unexpected token, expected ":" (274:23) (274:23)
+ERROR in ./src/components/TransformationPanel/TransformationPanel.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/components/TransformationPanel/TransformationPanel.js: Unexpected token, expected ":" (274:23)
+
+  272 |                   </div>
+  273 |                 )
+> 274 |                   <div style={{ fontSize: 13, color: "#888", marginLeft: 2 }}>{def.description}</div>
+      |                        ^
+  275 |                 : def?.description && (
+  276 |                 )}
+  277 |             </li>
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3657:12)
+    at FlowParserMixin.parseConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5237:10)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10562:17)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6805:31)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6884:36)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12786:28)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12386:17)
+
+ERROR in [eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+  Line 274:23:  Parsing error: Unexpected token, expected ":" (274:23)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+Syntax error: Unexpected token, expected ":" (274:23) (274:23)
+ERROR in ./src/components/TransformationPanel/TransformationPanel.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/components/TransformationPanel/TransformationPanel.js: Unexpected token, expected ":" (274:23)
+
+  272 |                   </div>
+  273 |                 )
+> 274 |                   <div style={{ fontSize: 13, color: "#888", marginLeft: 2 }}>{def.description}</div>
+      |                        ^
+  275 |                 : def?.description && (
+  276 |                 )}
+  277 |             </li>
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3657:12)
+    at FlowParserMixin.parseConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5237:10)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10562:17)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6805:31)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6884:36)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12786:28)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12386:17)
+
+ERROR in [eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+  Line 274:23:  Parsing error: Unexpected token, expected ":" (274:23)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+Syntax error: Unexpected token, expected ":" (274:23) (274:23)
+ERROR in ./src/components/TransformationPanel/TransformationPanel.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/components/TransformationPanel/TransformationPanel.js: Unexpected token, expected ":" (274:23)
+
+  272 |                   </div>
+  273 |                 )
+> 274 |                   <div style={{ fontSize: 13, color: "#888", marginLeft: 2 }}>{def.description}</div>
+      |                        ^
+  275 |                 : def?.description && (
+  276 |                 )}
+  277 |             </li>
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3657:12)
+    at FlowParserMixin.parseConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5237:10)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10562:17)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6805:31)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6884:36)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12786:28)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12386:17)
+
+ERROR in [eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+  Line 274:23:  Parsing error: Unexpected token, expected ":" (274:23)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+Syntax error: Unexpected token, expected ":" (274:23) (274:23)
+ERROR in ./src/components/TransformationPanel/TransformationPanel.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/src/components/TransformationPanel/TransformationPanel.js: Unexpected token, expected ":" (274:23)
+
+  272 |                   </div>
+  273 |                 )
+> 274 |                   <div style={{ fontSize: 13, color: "#888", marginLeft: 2 }}>{def.description}</div>
+      |                        ^
+  275 |                 : def?.description && (
+  276 |                 )}
+  277 |             </li>
+    at constructor (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.expect (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3657:12)
+    at FlowParserMixin.parseConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5237:10)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10562:17)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6805:31)
+    at FlowParserMixin.jsxParseElementAt (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6884:36)
+    at FlowParserMixin.jsxParseElement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6922:17)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6932:19)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:39
+    at FlowParserMixin.tryParse (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5722:18)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11359:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5815:18)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:11006:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12786:28)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/mememaker-85181-85187/main_container_for_mememaker/node_modules/@babel/parser/lib/index.js:12386:17)
+
+ERROR in [eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+  Line 274:23:  Parsing error: Unexpected token, expected ":" (274:23)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+  Line 22:51:  React Hook "useMedia" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+  Line 5:3:  'serializeTransformationPipeline' is defined but never used    no-unused-vars
+  Line 6:3:  'deserializeTransformationPipeline' is defined but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+  Line 22:51:  React Hook "useMedia" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+  Line 5:3:  'serializeTransformationPipeline' is defined but never used    no-unused-vars
+  Line 6:3:  'deserializeTransformationPipeline' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/TransformationPanel/TransformationPanel.js
+  Line 5:3:  'serializeTransformationPipeline' is defined but never used    no-unused-vars
+  Line 6:3:  'deserializeTransformationPipeline' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
